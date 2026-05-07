@@ -1,0 +1,6 @@
+services:
+  devops-app:
+    build: .
+    container_name: devops-cicd-app
+    ports:
+      - "5000:5000"
